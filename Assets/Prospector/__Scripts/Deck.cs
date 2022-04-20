@@ -169,8 +169,8 @@ public class Deck : MonoBehaviour {
 			card.rank = int.Parse (card.name.Substring (1));
 			
 			if (card.suit =="D" || card.suit == "H") {
-				card.colS = "Red";
-				card.color = Color.red;
+				card.colS = "Black";
+				card.color = Color.black;
 			}
 			
 			card.def = GetCardDefinitionByRank(card.rank);
